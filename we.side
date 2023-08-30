@@ -1,0 +1,191 @@
+{
+  "id": "f322f33f-7cc6-4d99-8161-0f57c06c63f7",
+  "version": "2.0",
+  "name": "we",
+  "url": "https://euatwebapp.mybookapp.co",
+  "tests": [{
+    "id": "108a53db-55e7-41af-9187-9699f0136630",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "8470a118-33a2-4ff9-a948-2341d2030041",
+    "name": "change the location manually in selenium",
+    "commands": [{
+      "id": "a4fb9b61-cb4b-4cd5-901e-9797f5b7d6cf",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5879b740-72ae-454c-9a8d-55739c2f6454",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1588x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93d147b7-1a03-480f-99bd-6a509a2c79d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-caret-down path",
+      "targets": [
+        ["css=.anticon-caret-down path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f416270-e9e4-45f0-ae28-c380ebecf594",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Delivery",
+      "targets": [
+        ["linkText=Delivery", "linkText"],
+        ["css=.ant-dropdown-menu-item-active a", "css:finder"],
+        ["xpath=//a[contains(text(),'Delivery')]", "xpath:link"],
+        ["xpath=//li[4]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Delivery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b54e368-f7b0-4a28-820c-008ed03a0075",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-round > span",
+      "targets": [
+        ["css=.ant-btn-round > span", "css:finder"],
+        ["xpath=//div[@id='app']/section/div/div/div/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Change')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60456d90-11a8-4fab-8c86-77bd69d8be82",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.leaflet-marker-icon",
+      "targets": [
+        ["css=.leaflet-marker-icon", "css:finder"],
+        ["xpath=//img[@alt='Marker']", "xpath:img"],
+        ["xpath=//div[@id='app']/section/div/div/div/div[2]/div/div/div[4]/img", "xpath:idRelative"],
+        ["xpath=//div[4]/img", "xpath:position"]
+      ],
+      "value": "26.5,9"
+    }, {
+      "id": "255bc85b-d85f-49d9-a3ea-b423dc23f5f9",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.leaflet-marker-icon",
+      "targets": [
+        ["css=.leaflet-marker-icon", "css:finder"],
+        ["xpath=//img[@alt='Marker']", "xpath:img"],
+        ["xpath=//div[@id='app']/section/div/div/div/div[2]/div/div/div[4]/img", "xpath:idRelative"],
+        ["xpath=//div[4]/img", "xpath:position"]
+      ],
+      "value": "26.5,9"
+    }, {
+      "id": "81134c04-4a20-49c2-9d97-8d8cf720427b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.leaflet-marker-icon",
+      "targets": [
+        ["css=.leaflet-marker-icon", "css:finder"],
+        ["xpath=//img[@alt='Marker']", "xpath:img"],
+        ["xpath=//div[@id='app']/section/div/div/div/div[2]/div/div/div[4]/img", "xpath:idRelative"],
+        ["xpath=//div[4]/img", "xpath:position"]
+      ],
+      "value": "26.5,9"
+    }, {
+      "id": "fa3ced83-8f55-47e8-8f88-65ef37aefbee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leaflet-marker-icon",
+      "targets": [
+        ["css=.leaflet-marker-icon", "css:finder"],
+        ["xpath=//img[@alt='Marker']", "xpath:img"],
+        ["xpath=//div[@id='app']/section/div/div/div/div[2]/div/div/div[4]/img", "xpath:idRelative"],
+        ["xpath=//div[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9563bc00-36ff-4453-89b3-894590b0c59e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leaflet-control-zoom-out > span",
+      "targets": [
+        ["css=.leaflet-control-zoom-out > span", "css:finder"],
+        ["xpath=//div[@id='app']/section/div/div/div/div[2]/div/div[2]/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'−')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "902c364c-5db4-4ed0-b3a5-d1a1bba4a26a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leaflet-control-zoom-out > span",
+      "targets": [
+        ["css=.leaflet-control-zoom-out > span", "css:finder"],
+        ["xpath=//div[@id='app']/section/div/div/div/div[2]/div/div[2]/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'−')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0ab9c36-19f9-4bb6-befd-a3a330c71f29",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.leaflet-marker-icon",
+      "targets": [
+        ["css=.leaflet-marker-icon", "css:finder"],
+        ["xpath=//img[@alt='Marker']", "xpath:img"],
+        ["xpath=//div[@id='app']/section/div/div/div/div[2]/div/div/div[4]/img", "xpath:idRelative"],
+        ["xpath=//div[4]/img", "xpath:position"]
+      ],
+      "value": "531.5,417"
+    }, {
+      "id": "83a620b7-2c83-4d3f-b7b6-7985f01ee46d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.leaflet-container",
+      "targets": [
+        ["css=.leaflet-container", "css:finder"],
+        ["xpath=//div[@id='app']/section/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "179.5,405"
+    }, {
+      "id": "2a5c4bf6-52b8-46b1-8c09-13b737667412",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.leaflet-container",
+      "targets": [
+        ["css=.leaflet-container", "css:finder"],
+        ["xpath=//div[@id='app']/section/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "179.5,405"
+    }, {
+      "id": "6d1e6dbe-d6f3-46ec-887b-a2a7c046c4cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leaflet-marker-icon",
+      "targets": [
+        ["css=.leaflet-marker-icon", "css:finder"],
+        ["xpath=//img[@alt='Marker']", "xpath:img"],
+        ["xpath=//div[@id='app']/section/div/div/div/div[2]/div/div/div[4]/img", "xpath:idRelative"],
+        ["xpath=//div[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a29e0e6c-cb21-42ea-aa80-23d7bd8ae208",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["108a53db-55e7-41af-9187-9699f0136630"]
+  }],
+  "urls": ["https://euatwebapp.mybookapp.co/"],
+  "plugins": []
+}
